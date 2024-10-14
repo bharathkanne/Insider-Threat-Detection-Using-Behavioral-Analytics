@@ -1,0 +1,2 @@
+2024-10-14 21:45:47,034:INFO:PUT https://192.168.1.10:9200/_bulk [status:200 duration:0.084s]
+2024-10-14 21:45:47,035:INFO:Successfully indexed 3 logs.

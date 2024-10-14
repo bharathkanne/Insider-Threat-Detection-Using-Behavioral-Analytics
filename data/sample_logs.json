@@ -1,0 +1,5 @@
+[
+    {"user_id": "user1", "timestamp": "2023-10-10T10:00:00Z", "activity": "login", "location": "NYC"},
+    {"user_id": "user1", "timestamp": "2023-10-10T10:30:00Z", "activity": "file_access", "file_name": "confidential.pdf"},
+    {"user_id": "user2", "timestamp": "2023-10-10T11:00:00Z", "activity": "login", "location": "LA"}
+]

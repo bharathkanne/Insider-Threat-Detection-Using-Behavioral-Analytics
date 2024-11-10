@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insider Threat Detection System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2, h3, h4 {
+            color: #333;
+        }
+        .instructions, .endpoints {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        pre {
+            background-color: #eef;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Insider Threat Detection System</h1>
+    <p>Welcome! Follow the instructions below to train models and detect anomalies using Postman.</p>
+
+    <div class="instructions">
+        <h2>Instructions for Training and Detecting Models</h2>
+        <h3>Step 1: Prepare Your Data</h3>
+        <p>For each model, prepare your training data in JSON format as shown in the examples below.</p>
+
+        <h3>Step 2: Use Postman to Make Requests</h3>
+        <p>Select the appropriate endpoint for training or detection from the list below.</p>
+        <p>Use <strong>POST</strong> as the request type.</p>
+
+        <h3>Step 3: Enter the URL in Postman</h3>
+        <p>For training, use the following base URL:</p>
+        <pre><code>http://localhost:5000/train_end_point_</code></pre>
+        <p>For detecting anomalies, use:</p>
+        <pre><code>http://localhost:5000/detect_end_point_anomalies</code></pre>
+        <p>Ensure the correct endpoint matches your selected operation.</p>
+
+        <h3>Step 4: Input JSON Data</h3>
+        <p>In the <strong>Body</strong> tab, select <strong>raw</strong> and choose <strong>JSON</strong> from the dropdown. Then, input your JSON data.</p>
+
+        <h3>Step 5: Send Your Request</h3>
+        <p>Click <strong>Send</strong> to execute the request. Check the response for success or error messages.</p>
+    </div>
+
+    <div class="endpoints">
+        <h2>Available Endpoints</h2>
+        <h4>Training Endpoints</h4>
+        <ul>
+            <li><strong>Large File Transfer:</strong> <code>POST /train_large_file_transfer</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user1",
+                    "file_name": "large_file_1.zip",
+                    "file_size": 50000000,
+                    "timestamp": "2024-09-01T12:00:00",
+                    "destination": "cloud_storage"
+                },
+                {
+                    "user_id": "user3",
+                    "file_name": "large_file_2.zip",
+                    "file_size": 70000000,
+                    "timestamp": "2024-09-02T12:01:00",
+                    "destination": "external_drive"
+                },
+                {
+                    "user_id": "user4",
+                    "file_name": "large_file_3.zip",
+                    "file_size": 25000000,
+                    "timestamp": "2024-09-03T12:02:00",
+                    "destination": "internal_server"
+                }
+            ]</code></pre>
+
+            <li><strong>File Access:</strong> <code>POST /train_file_access</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user2",
+                    "file_name": "file_61.txt",
+                    "file_path": "/path/to/file_61.txt", // Add the file path here
+                    "action": "access",
+                    "timestamp": "2024-10-03T12:51:42.765980"
+                },
+                {
+                    "user_id": "user3",
+                    "file_name": "file_62.txt",
+                    "file_path": "/path/to/file_62.txt", // Add the file path here
+                    "action": "edit",
+                    "timestamp": "2024-10-04T12:51:42.765980"
+                },
+                {
+                    "user_id": "user1",
+                    "file_name": "file_63.txt",
+                    "file_path": "/path/to/file_63.txt", // Add the file path here
+                    "action": "delete",
+                    "timestamp": "2024-10-05T12:51:42.765980"
+                }
+            ]</code></pre>
+
+            <li><strong>Database Access:</strong> <code>POST /train_database_access</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user2",
+                    "database_name": "db_1",
+                    "action": "read",
+                    "timestamp": "2024-10-09T12:51:42.767975"
+                },
+                {
+                    "user_id": "user1",
+                    "database_name": "db_2",
+                    "action": "write",
+                    "timestamp": "2024-10-10T12:51:42.767975"
+                },
+                {
+                    "user_id": "user3",
+                    "database_name": "db_3",
+                    "action": "delete",
+                    "timestamp": "2024-10-11T12:51:42.767975"
+                }
+            ]</code></pre>
+
+            <li><strong>Privileged Access:</strong> <code>POST /train_privileged_access</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user5",
+                    "privilege": "privilege_4",
+                    "access_level": "admin", // Add the access level here
+                    "action": "access",
+                    "timestamp": "2024-10-12T12:51:42.768975"
+                },
+                {
+                    "user_id": "user1",
+                    "privilege": "privilege_5",
+                    "access_level": "super_user", // Add the access level here
+                    "action": "grant",
+                    "timestamp": "2024-10-13T12:51:42.768975"
+                },
+                {
+                    "user_id": "user2",
+                    "privilege": "privilege_6",
+                    "access_level": "read_only", // Add the access level here
+                    "action": "revoke",
+                    "timestamp": "2024-10-14T12:51:42.768975"
+                }
+            ]</code></pre>
+
+            <li><strong>Legacy System Access:</strong> <code>POST /train_legacy_system_access</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user1",
+                    "system_name": "legacy_system_5",
+                    "action": "access",
+                    "timestamp": "2024-10-08T12:51:42.770993"
+                },
+                {
+                    "user_id": "user2",
+                    "system_name": "legacy_system_6",
+                    "action": "access",
+                    "timestamp": "2024-10-09T12:51:42.770993"
+                },
+                {
+                    "user_id": "user3",
+                    "system_name": "legacy_system_7",
+                    "action": "access",
+                    "timestamp": "2024-10-10T12:51:42.770993"
+                }
+            ]</code></pre>
+
+            <li><strong>Department Access:</strong> <code>POST /train_department_access</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user5",
+                    "department_name": "HR",
+                    "action": "access",
+                    "timestamp": "2024-09-30T12:51:42.772986"
+                },
+                {
+                    "user_id": "user4",
+                    "department_name": "Finance",
+                    "action": "access",
+                    "timestamp": "2024-10-01T12:51:42.772986"
+                },
+                {
+                    "user_id": "user2",
+                    "department_name": "IT",
+                    "action": "access",
+                    "timestamp": "2024-10-02T12:51:42.772986"
+                }
+            ]</code></pre>
+
+            <li><strong>Unauthorized Software Installation:</strong> <code>POST /train_unauthorized_software</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user1",
+                    "software_name": "malicious_tool.exe",
+                    "device_id": "device_1",
+                    "action": "install",
+                    "timestamp": "2024-09-26T15:00:00.469475"
+                },
+                {
+                    "user_id": "user2",
+                    "software_name": "unauthorized_app.msi",
+                    "device_id": "device_2",
+                    "action": "install",
+                    "timestamp": "2024-09-26T15:05:30.469475"
+                }
+            ]</code></pre>
+
+            <li><strong>Hacking Tools:</strong> <code>POST /train_hacking_tools</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user1",
+                    "tool_name": "nmap",
+                    "device_id": "device_1",
+                    "action": "usage",
+                    "timestamp": "2024-10-02T14:53:23.471473"
+                },
+                {
+                    "user_id": "user2",
+                    "tool_name": "metasploit",
+                    "device_id": "device_2",
+                    "action": "usage",
+                    "timestamp": "2024-10-02T15:00:00.471473"
+                }
+            ]</code></pre>
+
+            <li><strong>Command Line Access:</strong> <code>POST /train_command_line_access</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user1",
+                    "command_used": "bash",
+                    "device_id": "device_1",
+                    "action": "execute",
+                    "timestamp": "2024-09-20T14:53:23.472473"
+                },
+                {
+                    "user_id": "user2",
+                    "command_used": "powershell.exe",
+                    "device_id": "device_2",
+                    "action": "execute",
+                    "timestamp": "2024-09-20T15:10:00.472473"
+                }
+            ]</code></pre>
+
+            <li><strong>Mass Deletion:</strong> <code>POST /train_mass_deletion</code></li>
+            <pre><code>[
+                {
+                    "file_count": 1000,
+                    "user_id": "user1",
+                    "timestamp": "2024-10-20T10:00:00Z",
+                    "files_deleted": 100,
+                    "reason": "user mistake"
+                },
+                {
+                    "file_count": 100,
+                    "user_id": "user2",
+                    "timestamp": "2024-10-20T10:05:00Z",
+                    "files_deleted": 200,
+                    "reason": "system cleanup"
+                },
+                {
+                    "file_count": 500,
+                    "user_id": "user1",
+                    "timestamp": "2024-10-20T10:10:00Z",
+                    "files_deleted": 150,
+                    "reason": "user mistake"
+                }
+            ]</code></pre>
+
+            <li><strong>Security Log Modification:</strong> <code>POST /train_log_modification</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user1",
+                    "log_file": "security.log",
+                    "modifications": "Removed entries related to unauthorized access",
+                    "timestamp": "2024-09-28T15:51:13.977761"
+                },
+                {
+                    "user_id": "user2",
+                    "log_file": "security.log",
+                    "modifications": "Edited entries for data compliance",
+                    "timestamp": "2024-09-29T10:00:00.000000"
+                },
+                {
+                    "user_id": "user3",
+                    "log_file": "security.log",
+                    "modifications": "Updated user permissions",
+                    "timestamp": "2024-09-30T12:30:45.123456"
+                }
+            ]
+            </code></pre>
+
+            <li><strong>Database Record Alteration:</strong> <code>POST /train_database_record_alteration</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user1",
+                    "database_name": "employees",
+                    "modification": "Updated employee salary",
+                    "alteration_time": "2024-09-28T15:51:13.977761"
+                },
+                {
+                    "user_id": "user2",
+                    "database_name": "employees",
+                    "modification": "Deleted inactive employee records",
+                    "alteration_time": "2024-09-29T10:00:00.000000"
+                },
+                {
+                    "user_id": "user3",
+                    "database_name": "employees",
+                    "modification": "Inserted new employee details",
+                    "alteration_time": "2024-09-30T12:30:45.123456"
+                }
+            ]</code></pre>
+        </ul>
+
+        <h4>Detection Endpoints</h4>
+        <ul>
+
+
+            <li><strong>Detect Large File Transfer Anomalies:</strong> <code>POST /detect_large_file_transfer</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user1",
+                    "file_name": "large_file_1.zip",
+                    "file_size": 50000000,
+                    "timestamp": "2024-09-01T12:00:00",
+                    "destination": "cloud_storage"
+                },
+                {
+                    "user_id": "user3",
+                    "file_name": "large_file_2.zip",
+                    "file_size": 70000000,
+                    "timestamp": "2024-09-02T12:01:00",
+                    "destination": "external_drive"
+                },
+                {
+                    "user_id": "user4",
+                    "file_name": "large_file_3.zip",
+                    "file_size": 25000000,
+                    "timestamp": "2024-09-03T12:02:00",
+                    "destination": "internal_server"
+                }
+            ]
+            </code></pre>
+
+            <li><strong>Detect File Access Anomalies:</strong> <code>POST /detect_file_access</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user2",
+                    "file_name": "file_61.txt",
+                    "file_path": "/path/to/file_61.txt",
+                    "action": "access",
+                    "timestamp": "2024-10-03T12:51:42.765980"
+                },
+                {
+                    "user_id": "user3",
+                    "file_name": "file_62.txt",
+                    "file_path": "/path/to/file_62.txt",
+                    "action": "edit",
+                    "timestamp": "2024-10-04T12:51:42.765980"
+                },
+                {
+                    "user_id": "user4",
+                    "file_name": "file_63.txt",
+                    "file_path": "/path/to/file_63.txt",
+                    "action": "delete",
+                    "timestamp": "2024-10-05T12:51:42.765980"
+                },
+                {
+                    "user_id": "user2",
+                    "file_name": "file_64.txt",
+                    "file_path": "/path/to/file_64.txt",
+                    "action": "upload",
+                    "timestamp": "2024-10-06T12:51:42.765980"
+                }
+            ]
+            </code></pre>
+
+            <li><strong>Detect Database Access Anomalies:</strong> <code>POST /detect_database_access</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user2",
+                    "database_name": "db_1",
+                    "action": "read",
+                    "timestamp": "2024-10-09T12:51:42.767975"
+                },
+                {
+                    "user_id": "user1",
+                    "database_name": "db_2",
+                    "action": "write",
+                    "timestamp": "2024-10-10T12:51:42.767975"
+                },
+                {
+                    "user_id": "user3",
+                    "database_name": "db_3",
+                    "action": "delete",
+                    "timestamp": "2024-10-11T12:51:42.767975"
+                }
+            ]
+            </code></pre>
+
+            <li><strong>Detect Privileged Access Anomalies:</strong> <code>POST /detect_privileged_access</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user5",
+                    "privilege": "privilege_4",
+                    "access_level": "admin",
+                    "action": "access",
+                    "timestamp": "2024-10-12T12:51:42.768975"
+                },
+                {
+                    "user_id": "user1",
+                    "privilege": "privilege_5",
+                    "access_level": "super_user",
+                    "action": "grant",
+                    "timestamp": "2024-10-13T12:51:42.768975"
+                },
+                {
+                    "user_id": "user2",
+                    "privilege": "privilege_6",
+                    "access_level": "read_only",
+                    "action": "revoke",
+                    "timestamp": "2024-10-14T12:51:42.768975"
+                }
+            ]
+            </code></pre>
+
+            <li><strong>Detect Legacy System Access Anomalies:</strong> <code>POST /detect_legacy_system_access</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user1",
+                    "system_name": "legacy_system_5",
+                    "action": "access",
+                    "timestamp": "2024-10-08T12:51:42.770993"
+                },
+                {
+                    "user_id": "user2",
+                    "system_name": "legacy_system_6",
+                    "action": "access",
+                    "timestamp": "2024-10-09T12:51:42.770993"
+                },
+                {
+                    "user_id": "user3",
+                    "system_name": "legacy_system_7",
+                    "action": "access",
+                    "timestamp": "2024-10-10T12:51:42.770993"
+                }
+            ]
+            </code></pre>
+
+            <li><strong>Detect Department Access Anomalies:</strong> <code>POST /detect_department_access</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user5",
+                    "department_name": "HR", // Update to department_name
+                    "action": "access",
+                    "timestamp": "2024-09-30T12:51:42.772986"
+                },
+                {
+                    "user_id": "user4",
+                    "department_name": "Finance", // Update to department_name
+                    "action": "access",
+                    "timestamp": "2024-10-01T12:51:42.772986"
+                },
+                {
+                    "user_id": "user2",
+                    "department_name": "IT", // Update to department_name
+                    "action": "access",
+                    "timestamp": "2024-10-02T12:51:42.772986"
+                }
+            ]</code></pre>
+
+            <li><strong>Detect Unauthorized Software Installation Anomalies:</strong> <code>POST /detect_unauthorized_software</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user3",
+                    "software_name": "unapproved_tool.exe",
+                    "device_id": "device_3",
+                    "action": "install",
+                    "timestamp": "2024-09-30T12:30:45.123456"
+                },
+                {
+                    "user_id": "user4",
+                    "software_name": "unknown_app.dmg",
+                    "device_id": "device_4",
+                    "action": "install",
+                    "timestamp": "2024-10-01T08:15:00.654321"
+                }
+            ]</code></pre>
+
+            <li><strong>Detect Hacking Tools Anomalies:</strong> <code>POST /detect_hacking_tools</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user3",
+                    "tool_name": "wireshark",
+                    "device_id": "device_3",
+                    "action": "usage",
+                    "timestamp": "2024-10-03T09:00:00.123456"
+                },
+                {
+                    "user_id": "user4",
+                    "tool_name": "sqlmap",
+                    "device_id": "device_4",
+                    "action": "usage",
+                    "timestamp": "2024-10-03T10:30:00.654321"
+                }
+            ]</code></pre>
+
+            <li><strong>Detect Command Line Access Anomalies:</strong> <code>POST /detect_command_line_access</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user3",
+                    "command_used": "cmd.exe",
+                    "device_id": "device_3",
+                    "action": "execute",
+                    "timestamp": "2024-09-21T11:00:00.123456"
+                },
+                {
+                    "user_id": "user4",
+                    "command_used": "sh",
+                    "device_id": "device_4",
+                    "action": "execute",
+                    "timestamp": "2024-09-21T12:30:00.654321"
+                }
+            ]</code></pre>
+
+            <li><strong>Detect Mass Deletion Anomalies:</strong> <code>POST /detect_mass_deletion</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user1",
+                    "file_count": 1000,
+                    "timestamp": "2024-10-20T10:20:00Z",
+                    "files_deleted": 300,
+                    "reason": "unknown"
+                },
+                {
+                    "user_id": "user3",
+                    "file_count": 200,
+                    "timestamp": "2024-10-20T10:25:00Z",
+                    "files_deleted": 50,
+                    "reason": "error"
+                }
+            ]
+            </code></pre>
+
+            <li><strong>Detect Security Log Modification Anomalies:</strong> <code>POST /detect_log_modification</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user1",
+                    "log_file": "security.log",
+                    "modifications": "Removed entries related to unauthorized access",
+                    "timestamp": "2024-10-01T15:51:13.977761"
+                },
+                {
+                    "user_id": "user2",
+                    "log_file": "security.log",
+                    "modifications": "Edited entries for data compliance",
+                    "timestamp": "2024-10-02T10:00:00.000000"
+                },
+                {
+                    "user_id": "user3",
+                    "log_file": "security.log",
+                    "modifications": "Updated user permissions",
+                    "timestamp": "2024-10-03T12:30:45.123456"
+                }
+            ]
+            </code></pre>
+
+            <li><strong>Detect Database Record Alteration Anomalies:</strong> <code>POST /detect_database_record_alteration</code></li>
+            <pre><code>[
+                {
+                    "user_id": "user1",
+                    "database_name": "employees",
+                    "modification": "Updated employee salary",
+                    "alteration_time": "2024-10-01T15:51:13.977761"
+                },
+                {
+                    "user_id": "user2",
+                    "database_name": "employees",
+                    "modification": "Deleted inactive employee records",
+                    "alteration_time": "2024-10-02T10:00:00.000000"
+                },
+                {
+                    "user_id": "user3",
+                    "database_name": "employees",
+                    "modification": "Inserted new employee details",
+                    "alteration_time": "2024-10-03T12:30:45.123456"
+                }
+            ]
+            </code></pre>            
+        </ul>
+    </div>
+</body>
+</html>

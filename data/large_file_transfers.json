@@ -1,0 +1,352 @@
+[
+    {
+        "user_id": "user3",
+        "file_name": "large_file_52.zip",
+        "file_size": 56128173,
+        "timestamp": "2024-09-20T14:53:23.451487",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user2",
+        "file_name": "large_file_25.zip",
+        "file_size": 4098209,
+        "timestamp": "2024-10-08T14:53:23.451487",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user1",
+        "file_name": "large_file_46.zip",
+        "file_size": 75141036,
+        "timestamp": "2024-10-10T14:53:23.451487",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user4",
+        "file_name": "large_file_47.zip",
+        "file_size": 7593374,
+        "timestamp": "2024-09-29T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user5",
+        "file_name": "large_file_85.zip",
+        "file_size": 52548143,
+        "timestamp": "2024-10-18T14:53:23.451487",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user1",
+        "file_name": "large_file_63.zip",
+        "file_size": 71996667,
+        "timestamp": "2024-10-11T14:53:23.451487",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user2",
+        "file_name": "large_file_61.zip",
+        "file_size": 76048509,
+        "timestamp": "2024-09-22T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user3",
+        "file_name": "large_file_41.zip",
+        "file_size": 32100473,
+        "timestamp": "2024-10-06T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user1",
+        "file_name": "large_file_37.zip",
+        "file_size": 11085271,
+        "timestamp": "2024-10-06T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user1",
+        "file_name": "large_file_43.zip",
+        "file_size": 91292438,
+        "timestamp": "2024-10-02T14:53:23.451487",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user3",
+        "file_name": "large_file_13.zip",
+        "file_size": 13795833,
+        "timestamp": "2024-10-05T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user2",
+        "file_name": "large_file_19.zip",
+        "file_size": 36703016,
+        "timestamp": "2024-10-10T14:53:23.451487",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user3",
+        "file_name": "large_file_47.zip",
+        "file_size": 33126727,
+        "timestamp": "2024-10-13T14:53:23.451487",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user1",
+        "file_name": "large_file_92.zip",
+        "file_size": 8330977,
+        "timestamp": "2024-10-09T14:53:23.451487",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user5",
+        "file_name": "large_file_36.zip",
+        "file_size": 76327940,
+        "timestamp": "2024-09-22T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user3",
+        "file_name": "large_file_80.zip",
+        "file_size": 85055866,
+        "timestamp": "2024-10-15T14:53:23.451487",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user3",
+        "file_name": "large_file_45.zip",
+        "file_size": 18858527,
+        "timestamp": "2024-09-27T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user2",
+        "file_name": "large_file_27.zip",
+        "file_size": 70343031,
+        "timestamp": "2024-09-20T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user4",
+        "file_name": "large_file_91.zip",
+        "file_size": 54268372,
+        "timestamp": "2024-09-26T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user1",
+        "file_name": "large_file_64.zip",
+        "file_size": 59490381,
+        "timestamp": "2024-10-07T14:53:23.451487",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user2",
+        "file_name": "large_file_30.zip",
+        "file_size": 10803856,
+        "timestamp": "2024-10-01T14:53:23.451487",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user3",
+        "file_name": "large_file_10.zip",
+        "file_size": 17092711,
+        "timestamp": "2024-10-09T14:53:23.451487",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user5",
+        "file_name": "large_file_91.zip",
+        "file_size": 37385662,
+        "timestamp": "2024-10-02T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user5",
+        "file_name": "large_file_31.zip",
+        "file_size": 72125891,
+        "timestamp": "2024-10-09T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user4",
+        "file_name": "large_file_48.zip",
+        "file_size": 43404894,
+        "timestamp": "2024-10-07T14:53:23.451487",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user4",
+        "file_name": "large_file_33.zip",
+        "file_size": 25584592,
+        "timestamp": "2024-09-20T14:53:23.451487",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user5",
+        "file_name": "large_file_41.zip",
+        "file_size": 43658598,
+        "timestamp": "2024-09-27T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user3",
+        "file_name": "large_file_83.zip",
+        "file_size": 35346894,
+        "timestamp": "2024-10-16T14:53:23.451487",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user1",
+        "file_name": "large_file_3.zip",
+        "file_size": 72000331,
+        "timestamp": "2024-10-13T14:53:23.451487",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user4",
+        "file_name": "large_file_52.zip",
+        "file_size": 32309413,
+        "timestamp": "2024-10-13T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user4",
+        "file_name": "large_file_94.zip",
+        "file_size": 29689866,
+        "timestamp": "2024-09-27T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user3",
+        "file_name": "large_file_59.zip",
+        "file_size": 35872848,
+        "timestamp": "2024-10-08T14:53:23.451487",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user3",
+        "file_name": "large_file_81.zip",
+        "file_size": 97268442,
+        "timestamp": "2024-09-28T14:53:23.451487",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user5",
+        "file_name": "large_file_53.zip",
+        "file_size": 7557594,
+        "timestamp": "2024-10-14T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user5",
+        "file_name": "large_file_36.zip",
+        "file_size": 26243748,
+        "timestamp": "2024-10-13T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user1",
+        "file_name": "large_file_51.zip",
+        "file_size": 59150599,
+        "timestamp": "2024-10-17T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user2",
+        "file_name": "large_file_67.zip",
+        "file_size": 16347237,
+        "timestamp": "2024-09-22T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user3",
+        "file_name": "large_file_32.zip",
+        "file_size": 17478489,
+        "timestamp": "2024-10-17T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user1",
+        "file_name": "large_file_42.zip",
+        "file_size": 57491770,
+        "timestamp": "2024-10-04T14:53:23.451487",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user2",
+        "file_name": "large_file_94.zip",
+        "file_size": 19517101,
+        "timestamp": "2024-10-17T14:53:23.451487",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user1",
+        "file_name": "large_file_95.zip",
+        "file_size": 22444901,
+        "timestamp": "2024-09-29T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user4",
+        "file_name": "large_file_51.zip",
+        "file_size": 76790155,
+        "timestamp": "2024-10-07T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user5",
+        "file_name": "large_file_73.zip",
+        "file_size": 69059656,
+        "timestamp": "2024-10-06T14:53:23.451487",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user1",
+        "file_name": "large_file_87.zip",
+        "file_size": 96468028,
+        "timestamp": "2024-10-12T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user2",
+        "file_name": "large_file_14.zip",
+        "file_size": 26841439,
+        "timestamp": "2024-10-01T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user4",
+        "file_name": "large_file_53.zip",
+        "file_size": 37095100,
+        "timestamp": "2024-09-21T14:53:23.451487",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user1",
+        "file_name": "large_file_56.zip",
+        "file_size": 45446203,
+        "timestamp": "2024-10-11T14:53:23.451487",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user5",
+        "file_name": "large_file_47.zip",
+        "file_size": 97424710,
+        "timestamp": "2024-10-12T14:53:23.451487",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user4",
+        "file_name": "large_file_100.zip",
+        "file_size": 78348192,
+        "timestamp": "2024-10-09T14:53:23.451487",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user5",
+        "file_name": "large_file_22.zip",
+        "file_size": 66829527,
+        "timestamp": "2024-10-14T14:53:23.451487",
+        "destination": "internal_server"
+    }
+]

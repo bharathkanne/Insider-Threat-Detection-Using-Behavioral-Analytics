@@ -1,0 +1,302 @@
+[
+    {
+        "user_id": "user2",
+        "file_size": 64452275,
+        "timestamp": "2024-09-21T15:51:13.960780",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user4",
+        "file_size": 6770920,
+        "timestamp": "2024-09-20T15:51:13.961775",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user3",
+        "file_size": 3581885,
+        "timestamp": "2024-10-02T15:51:13.961775",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user1",
+        "file_size": 61822142,
+        "timestamp": "2024-09-23T15:51:13.961775",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user2",
+        "file_size": 61874785,
+        "timestamp": "2024-09-26T15:51:13.961775",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user4",
+        "file_size": 93137403,
+        "timestamp": "2024-10-17T15:51:13.961775",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user2",
+        "file_size": 47538685,
+        "timestamp": "2024-10-14T15:51:13.961775",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user4",
+        "file_size": 58561778,
+        "timestamp": "2024-09-25T15:51:13.961775",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user1",
+        "file_size": 20946287,
+        "timestamp": "2024-10-05T15:51:13.961775",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user3",
+        "file_size": 80665343,
+        "timestamp": "2024-10-09T15:51:13.961775",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user3",
+        "file_size": 62615066,
+        "timestamp": "2024-10-11T15:51:13.961775",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user5",
+        "file_size": 28926985,
+        "timestamp": "2024-10-08T15:51:13.961775",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user4",
+        "file_size": 17521742,
+        "timestamp": "2024-10-14T15:51:13.961775",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user5",
+        "file_size": 67020309,
+        "timestamp": "2024-09-30T15:51:13.961775",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user2",
+        "file_size": 28981158,
+        "timestamp": "2024-09-27T15:51:13.961775",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user1",
+        "file_size": 35982738,
+        "timestamp": "2024-10-01T15:51:13.961775",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user4",
+        "file_size": 48872774,
+        "timestamp": "2024-10-19T15:51:13.961775",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user5",
+        "file_size": 3939319,
+        "timestamp": "2024-10-05T15:51:13.961775",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user2",
+        "file_size": 77935439,
+        "timestamp": "2024-10-18T15:51:13.961775",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user2",
+        "file_size": 60395677,
+        "timestamp": "2024-09-20T15:51:13.961775",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user5",
+        "file_size": 91724612,
+        "timestamp": "2024-10-14T15:51:13.961775",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user4",
+        "file_size": 92089663,
+        "timestamp": "2024-09-26T15:51:13.961775",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user3",
+        "file_size": 27652174,
+        "timestamp": "2024-10-14T15:51:13.961775",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user4",
+        "file_size": 23662955,
+        "timestamp": "2024-10-02T15:51:13.961775",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user2",
+        "file_size": 42666476,
+        "timestamp": "2024-09-22T15:51:13.961775",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user5",
+        "file_size": 80761143,
+        "timestamp": "2024-09-28T15:51:13.961775",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user3",
+        "file_size": 76524898,
+        "timestamp": "2024-10-11T15:51:13.961775",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user1",
+        "file_size": 94678551,
+        "timestamp": "2024-10-09T15:51:13.961775",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user3",
+        "file_size": 33473362,
+        "timestamp": "2024-09-30T15:51:13.961775",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user2",
+        "file_size": 86379873,
+        "timestamp": "2024-10-10T15:51:13.961775",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user5",
+        "file_size": 17559197,
+        "timestamp": "2024-10-11T15:51:13.961775",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user2",
+        "file_size": 52896605,
+        "timestamp": "2024-10-05T15:51:13.961775",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user1",
+        "file_size": 55640728,
+        "timestamp": "2024-09-22T15:51:13.961775",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user1",
+        "file_size": 55287716,
+        "timestamp": "2024-10-11T15:51:13.961775",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user4",
+        "file_size": 39337837,
+        "timestamp": "2024-09-28T15:51:13.961775",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user4",
+        "file_size": 17622793,
+        "timestamp": "2024-10-07T15:51:13.961775",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user3",
+        "file_size": 81246872,
+        "timestamp": "2024-09-21T15:51:13.961775",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user4",
+        "file_size": 75529558,
+        "timestamp": "2024-10-05T15:51:13.961775",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user3",
+        "file_size": 30143038,
+        "timestamp": "2024-10-19T15:51:13.961775",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user2",
+        "file_size": 83925315,
+        "timestamp": "2024-09-26T15:51:13.961775",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user1",
+        "file_size": 30737532,
+        "timestamp": "2024-10-15T15:51:13.961775",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user3",
+        "file_size": 3412019,
+        "timestamp": "2024-09-22T15:51:13.961775",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user4",
+        "file_size": 31130076,
+        "timestamp": "2024-10-14T15:51:13.961775",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user3",
+        "file_size": 5503694,
+        "timestamp": "2024-10-18T15:51:13.961775",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user4",
+        "file_size": 78113355,
+        "timestamp": "2024-10-17T15:51:13.961775",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user2",
+        "file_size": 47728639,
+        "timestamp": "2024-10-18T15:51:13.961775",
+        "destination": "cloud_storage"
+    },
+    {
+        "user_id": "user1",
+        "file_size": 70086292,
+        "timestamp": "2024-09-27T15:51:13.961775",
+        "destination": "internal_server"
+    },
+    {
+        "user_id": "user3",
+        "file_size": 30014353,
+        "timestamp": "2024-09-26T15:51:13.961775",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user2",
+        "file_size": 74242596,
+        "timestamp": "2024-10-19T15:51:13.961775",
+        "destination": "external_drive"
+    },
+    {
+        "user_id": "user3",
+        "file_size": 66360261,
+        "timestamp": "2024-10-20T15:51:13.961775",
+        "destination": "cloud_storage"
+    }
+]

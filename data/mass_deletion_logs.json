@@ -1,0 +1,302 @@
+[
+    {
+        "user_id": "user2",
+        "files_deleted": 188,
+        "target_directory": "/home/user5/files/",
+        "timestamp": "2024-09-23T15:51:13.976760"
+    },
+    {
+        "user_id": "user5",
+        "files_deleted": 277,
+        "target_directory": "/home/user4/files/",
+        "timestamp": "2024-10-12T15:51:13.976760"
+    },
+    {
+        "user_id": "user3",
+        "files_deleted": 358,
+        "target_directory": "/home/user5/files/",
+        "timestamp": "2024-10-12T15:51:13.976760"
+    },
+    {
+        "user_id": "user2",
+        "files_deleted": 83,
+        "target_directory": "/home/user5/files/",
+        "timestamp": "2024-10-19T15:51:13.976760"
+    },
+    {
+        "user_id": "user4",
+        "files_deleted": 378,
+        "target_directory": "/home/user2/files/",
+        "timestamp": "2024-09-21T15:51:13.976760"
+    },
+    {
+        "user_id": "user1",
+        "files_deleted": 284,
+        "target_directory": "/home/user3/files/",
+        "timestamp": "2024-10-08T15:51:13.976760"
+    },
+    {
+        "user_id": "user5",
+        "files_deleted": 500,
+        "target_directory": "/home/user2/files/",
+        "timestamp": "2024-09-24T15:51:13.976760"
+    },
+    {
+        "user_id": "user5",
+        "files_deleted": 383,
+        "target_directory": "/home/user5/files/",
+        "timestamp": "2024-10-16T15:51:13.976760"
+    },
+    {
+        "user_id": "user1",
+        "files_deleted": 210,
+        "target_directory": "/home/user4/files/",
+        "timestamp": "2024-09-22T15:51:13.976760"
+    },
+    {
+        "user_id": "user1",
+        "files_deleted": 169,
+        "target_directory": "/home/user4/files/",
+        "timestamp": "2024-10-10T15:51:13.976760"
+    },
+    {
+        "user_id": "user1",
+        "files_deleted": 487,
+        "target_directory": "/home/user2/files/",
+        "timestamp": "2024-10-02T15:51:13.976760"
+    },
+    {
+        "user_id": "user2",
+        "files_deleted": 126,
+        "target_directory": "/home/user5/files/",
+        "timestamp": "2024-10-07T15:51:13.976760"
+    },
+    {
+        "user_id": "user3",
+        "files_deleted": 73,
+        "target_directory": "/home/user2/files/",
+        "timestamp": "2024-10-10T15:51:13.976760"
+    },
+    {
+        "user_id": "user2",
+        "files_deleted": 286,
+        "target_directory": "/home/user2/files/",
+        "timestamp": "2024-10-10T15:51:13.976760"
+    },
+    {
+        "user_id": "user3",
+        "files_deleted": 459,
+        "target_directory": "/home/user5/files/",
+        "timestamp": "2024-09-23T15:51:13.976760"
+    },
+    {
+        "user_id": "user4",
+        "files_deleted": 271,
+        "target_directory": "/home/user1/files/",
+        "timestamp": "2024-10-08T15:51:13.976760"
+    },
+    {
+        "user_id": "user4",
+        "files_deleted": 462,
+        "target_directory": "/home/user5/files/",
+        "timestamp": "2024-10-13T15:51:13.976760"
+    },
+    {
+        "user_id": "user3",
+        "files_deleted": 370,
+        "target_directory": "/home/user3/files/",
+        "timestamp": "2024-10-15T15:51:13.976760"
+    },
+    {
+        "user_id": "user5",
+        "files_deleted": 335,
+        "target_directory": "/home/user2/files/",
+        "timestamp": "2024-10-16T15:51:13.976760"
+    },
+    {
+        "user_id": "user3",
+        "files_deleted": 360,
+        "target_directory": "/home/user4/files/",
+        "timestamp": "2024-10-20T15:51:13.976760"
+    },
+    {
+        "user_id": "user4",
+        "files_deleted": 486,
+        "target_directory": "/home/user2/files/",
+        "timestamp": "2024-10-03T15:51:13.976760"
+    },
+    {
+        "user_id": "user4",
+        "files_deleted": 257,
+        "target_directory": "/home/user2/files/",
+        "timestamp": "2024-10-05T15:51:13.976760"
+    },
+    {
+        "user_id": "user2",
+        "files_deleted": 277,
+        "target_directory": "/home/user3/files/",
+        "timestamp": "2024-10-03T15:51:13.976760"
+    },
+    {
+        "user_id": "user3",
+        "files_deleted": 272,
+        "target_directory": "/home/user2/files/",
+        "timestamp": "2024-10-11T15:51:13.976760"
+    },
+    {
+        "user_id": "user1",
+        "files_deleted": 403,
+        "target_directory": "/home/user1/files/",
+        "timestamp": "2024-10-01T15:51:13.976760"
+    },
+    {
+        "user_id": "user1",
+        "files_deleted": 454,
+        "target_directory": "/home/user2/files/",
+        "timestamp": "2024-10-04T15:51:13.976760"
+    },
+    {
+        "user_id": "user5",
+        "files_deleted": 280,
+        "target_directory": "/home/user4/files/",
+        "timestamp": "2024-10-01T15:51:13.976760"
+    },
+    {
+        "user_id": "user4",
+        "files_deleted": 299,
+        "target_directory": "/home/user3/files/",
+        "timestamp": "2024-10-09T15:51:13.976760"
+    },
+    {
+        "user_id": "user3",
+        "files_deleted": 52,
+        "target_directory": "/home/user1/files/",
+        "timestamp": "2024-09-27T15:51:13.976760"
+    },
+    {
+        "user_id": "user3",
+        "files_deleted": 203,
+        "target_directory": "/home/user5/files/",
+        "timestamp": "2024-09-22T15:51:13.976760"
+    },
+    {
+        "user_id": "user1",
+        "files_deleted": 59,
+        "target_directory": "/home/user4/files/",
+        "timestamp": "2024-10-12T15:51:13.976760"
+    },
+    {
+        "user_id": "user2",
+        "files_deleted": 294,
+        "target_directory": "/home/user3/files/",
+        "timestamp": "2024-10-13T15:51:13.976760"
+    },
+    {
+        "user_id": "user5",
+        "files_deleted": 120,
+        "target_directory": "/home/user1/files/",
+        "timestamp": "2024-10-04T15:51:13.976760"
+    },
+    {
+        "user_id": "user3",
+        "files_deleted": 126,
+        "target_directory": "/home/user5/files/",
+        "timestamp": "2024-10-14T15:51:13.976760"
+    },
+    {
+        "user_id": "user5",
+        "files_deleted": 469,
+        "target_directory": "/home/user5/files/",
+        "timestamp": "2024-10-05T15:51:13.976760"
+    },
+    {
+        "user_id": "user4",
+        "files_deleted": 457,
+        "target_directory": "/home/user4/files/",
+        "timestamp": "2024-09-30T15:51:13.976760"
+    },
+    {
+        "user_id": "user1",
+        "files_deleted": 359,
+        "target_directory": "/home/user3/files/",
+        "timestamp": "2024-09-28T15:51:13.976760"
+    },
+    {
+        "user_id": "user5",
+        "files_deleted": 217,
+        "target_directory": "/home/user1/files/",
+        "timestamp": "2024-10-06T15:51:13.976760"
+    },
+    {
+        "user_id": "user1",
+        "files_deleted": 277,
+        "target_directory": "/home/user3/files/",
+        "timestamp": "2024-09-24T15:51:13.976760"
+    },
+    {
+        "user_id": "user1",
+        "files_deleted": 496,
+        "target_directory": "/home/user4/files/",
+        "timestamp": "2024-09-20T15:51:13.976760"
+    },
+    {
+        "user_id": "user1",
+        "files_deleted": 399,
+        "target_directory": "/home/user1/files/",
+        "timestamp": "2024-09-27T15:51:13.976760"
+    },
+    {
+        "user_id": "user5",
+        "files_deleted": 419,
+        "target_directory": "/home/user2/files/",
+        "timestamp": "2024-10-14T15:51:13.976760"
+    },
+    {
+        "user_id": "user3",
+        "files_deleted": 130,
+        "target_directory": "/home/user4/files/",
+        "timestamp": "2024-10-13T15:51:13.976760"
+    },
+    {
+        "user_id": "user2",
+        "files_deleted": 389,
+        "target_directory": "/home/user3/files/",
+        "timestamp": "2024-09-25T15:51:13.976760"
+    },
+    {
+        "user_id": "user3",
+        "files_deleted": 61,
+        "target_directory": "/home/user5/files/",
+        "timestamp": "2024-09-28T15:51:13.976760"
+    },
+    {
+        "user_id": "user2",
+        "files_deleted": 490,
+        "target_directory": "/home/user4/files/",
+        "timestamp": "2024-10-06T15:51:13.976760"
+    },
+    {
+        "user_id": "user5",
+        "files_deleted": 97,
+        "target_directory": "/home/user3/files/",
+        "timestamp": "2024-10-04T15:51:13.976760"
+    },
+    {
+        "user_id": "user3",
+        "files_deleted": 175,
+        "target_directory": "/home/user2/files/",
+        "timestamp": "2024-10-02T15:51:13.976760"
+    },
+    {
+        "user_id": "user4",
+        "files_deleted": 280,
+        "target_directory": "/home/user2/files/",
+        "timestamp": "2024-10-09T15:51:13.976760"
+    },
+    {
+        "user_id": "user5",
+        "files_deleted": 186,
+        "target_directory": "/home/user4/files/",
+        "timestamp": "2024-09-26T15:51:13.976760"
+    }
+]

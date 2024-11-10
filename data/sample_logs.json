@@ -1,5 +1,252 @@
 [
-    {"user_id": "user1", "timestamp": "2023-10-10T10:00:00Z", "activity": "login", "location": "NYC"},
-    {"user_id": "user1", "timestamp": "2023-10-10T10:30:00Z", "activity": "file_access", "file_name": "confidential.pdf"},
-    {"user_id": "user2", "timestamp": "2023-10-10T11:00:00Z", "activity": "login", "location": "LA"}
+    {
+        "user_id": "user4",
+        "action": "login",
+        "timestamp": "2024-09-23T14:53:23.451487"
+    },
+    {
+        "user_id": "user5",
+        "action": "login",
+        "timestamp": "2024-10-13T14:53:23.451487"
+    },
+    {
+        "user_id": "user5",
+        "action": "file_download",
+        "timestamp": "2024-10-18T14:53:23.451487"
+    },
+    {
+        "user_id": "user4",
+        "action": "logout",
+        "timestamp": "2024-09-30T14:53:23.451487"
+    },
+    {
+        "user_id": "user4",
+        "action": "file_download",
+        "timestamp": "2024-10-08T14:53:23.451487"
+    },
+    {
+        "user_id": "user4",
+        "action": "file_upload",
+        "timestamp": "2024-09-21T14:53:23.451487"
+    },
+    {
+        "user_id": "user5",
+        "action": "file_upload",
+        "timestamp": "2024-10-18T14:53:23.451487"
+    },
+    {
+        "user_id": "user4",
+        "action": "login",
+        "timestamp": "2024-09-28T14:53:23.451487"
+    },
+    {
+        "user_id": "user3",
+        "action": "file_download",
+        "timestamp": "2024-09-20T14:53:23.451487"
+    },
+    {
+        "user_id": "user2",
+        "action": "file_download",
+        "timestamp": "2024-09-29T14:53:23.451487"
+    },
+    {
+        "user_id": "user3",
+        "action": "file_download",
+        "timestamp": "2024-09-27T14:53:23.451487"
+    },
+    {
+        "user_id": "user3",
+        "action": "logout",
+        "timestamp": "2024-10-20T14:53:23.451487"
+    },
+    {
+        "user_id": "user3",
+        "action": "login",
+        "timestamp": "2024-09-30T14:53:23.451487"
+    },
+    {
+        "user_id": "user2",
+        "action": "logout",
+        "timestamp": "2024-10-10T14:53:23.451487"
+    },
+    {
+        "user_id": "user4",
+        "action": "file_download",
+        "timestamp": "2024-10-15T14:53:23.451487"
+    },
+    {
+        "user_id": "user4",
+        "action": "file_download",
+        "timestamp": "2024-10-12T14:53:23.451487"
+    },
+    {
+        "user_id": "user3",
+        "action": "login",
+        "timestamp": "2024-10-12T14:53:23.451487"
+    },
+    {
+        "user_id": "user2",
+        "action": "logout",
+        "timestamp": "2024-10-03T14:53:23.451487"
+    },
+    {
+        "user_id": "user4",
+        "action": "login",
+        "timestamp": "2024-10-13T14:53:23.451487"
+    },
+    {
+        "user_id": "user2",
+        "action": "file_download",
+        "timestamp": "2024-10-19T14:53:23.451487"
+    },
+    {
+        "user_id": "user1",
+        "action": "file_download",
+        "timestamp": "2024-10-03T14:53:23.451487"
+    },
+    {
+        "user_id": "user2",
+        "action": "file_upload",
+        "timestamp": "2024-09-21T14:53:23.451487"
+    },
+    {
+        "user_id": "user1",
+        "action": "file_download",
+        "timestamp": "2024-10-07T14:53:23.451487"
+    },
+    {
+        "user_id": "user4",
+        "action": "login",
+        "timestamp": "2024-10-15T14:53:23.451487"
+    },
+    {
+        "user_id": "user1",
+        "action": "file_download",
+        "timestamp": "2024-10-15T14:53:23.451487"
+    },
+    {
+        "user_id": "user2",
+        "action": "file_download",
+        "timestamp": "2024-10-01T14:53:23.451487"
+    },
+    {
+        "user_id": "user3",
+        "action": "login",
+        "timestamp": "2024-10-13T14:53:23.451487"
+    },
+    {
+        "user_id": "user3",
+        "action": "file_download",
+        "timestamp": "2024-10-20T14:53:23.451487"
+    },
+    {
+        "user_id": "user2",
+        "action": "login",
+        "timestamp": "2024-10-14T14:53:23.451487"
+    },
+    {
+        "user_id": "user3",
+        "action": "file_upload",
+        "timestamp": "2024-09-23T14:53:23.451487"
+    },
+    {
+        "user_id": "user3",
+        "action": "file_upload",
+        "timestamp": "2024-10-07T14:53:23.451487"
+    },
+    {
+        "user_id": "user3",
+        "action": "logout",
+        "timestamp": "2024-10-17T14:53:23.451487"
+    },
+    {
+        "user_id": "user2",
+        "action": "login",
+        "timestamp": "2024-09-23T14:53:23.451487"
+    },
+    {
+        "user_id": "user3",
+        "action": "logout",
+        "timestamp": "2024-10-11T14:53:23.451487"
+    },
+    {
+        "user_id": "user2",
+        "action": "logout",
+        "timestamp": "2024-10-18T14:53:23.451487"
+    },
+    {
+        "user_id": "user5",
+        "action": "login",
+        "timestamp": "2024-10-01T14:53:23.451487"
+    },
+    {
+        "user_id": "user4",
+        "action": "logout",
+        "timestamp": "2024-09-21T14:53:23.451487"
+    },
+    {
+        "user_id": "user4",
+        "action": "file_upload",
+        "timestamp": "2024-10-10T14:53:23.451487"
+    },
+    {
+        "user_id": "user5",
+        "action": "logout",
+        "timestamp": "2024-10-13T14:53:23.451487"
+    },
+    {
+        "user_id": "user5",
+        "action": "logout",
+        "timestamp": "2024-09-20T14:53:23.451487"
+    },
+    {
+        "user_id": "user4",
+        "action": "file_download",
+        "timestamp": "2024-09-29T14:53:23.451487"
+    },
+    {
+        "user_id": "user3",
+        "action": "login",
+        "timestamp": "2024-10-09T14:53:23.451487"
+    },
+    {
+        "user_id": "user2",
+        "action": "file_download",
+        "timestamp": "2024-09-23T14:53:23.451487"
+    },
+    {
+        "user_id": "user1",
+        "action": "file_upload",
+        "timestamp": "2024-10-16T14:53:23.451487"
+    },
+    {
+        "user_id": "user3",
+        "action": "file_upload",
+        "timestamp": "2024-10-12T14:53:23.451487"
+    },
+    {
+        "user_id": "user1",
+        "action": "file_download",
+        "timestamp": "2024-10-10T14:53:23.451487"
+    },
+    {
+        "user_id": "user5",
+        "action": "logout",
+        "timestamp": "2024-10-12T14:53:23.451487"
+    },
+    {
+        "user_id": "user4",
+        "action": "logout",
+        "timestamp": "2024-09-25T14:53:23.451487"
+    },
+    {
+        "user_id": "user4",
+        "action": "file_upload",
+        "timestamp": "2024-10-01T14:53:23.451487"
+    },
+    {
+        "user_id": "user3",
+        "action": "logout",
+        "timestamp": "2024-10-16T14:53:23.451487"
+    }
 ]

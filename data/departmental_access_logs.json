@@ -1,0 +1,302 @@
+[
+    {
+        "user_id": "user4",
+        "department_name": "IT",
+        "action": "access",
+        "timestamp": "2024-10-09T15:51:13.969757"
+    },
+    {
+        "user_id": "user1",
+        "department_name": "Finance",
+        "action": "access",
+        "timestamp": "2024-10-10T15:51:13.969757"
+    },
+    {
+        "user_id": "user1",
+        "department_name": "Marketing",
+        "action": "access",
+        "timestamp": "2024-09-24T15:51:13.969757"
+    },
+    {
+        "user_id": "user1",
+        "department_name": "Finance",
+        "action": "access",
+        "timestamp": "2024-09-26T15:51:13.969757"
+    },
+    {
+        "user_id": "user4",
+        "department_name": "Marketing",
+        "action": "access",
+        "timestamp": "2024-10-11T15:51:13.969757"
+    },
+    {
+        "user_id": "user3",
+        "department_name": "Finance",
+        "action": "access",
+        "timestamp": "2024-09-25T15:51:13.969757"
+    },
+    {
+        "user_id": "user4",
+        "department_name": "Finance",
+        "action": "access",
+        "timestamp": "2024-09-30T15:51:13.969757"
+    },
+    {
+        "user_id": "user5",
+        "department_name": "Marketing",
+        "action": "access",
+        "timestamp": "2024-10-05T15:51:13.969757"
+    },
+    {
+        "user_id": "user5",
+        "department_name": "IT",
+        "action": "access",
+        "timestamp": "2024-10-12T15:51:13.969757"
+    },
+    {
+        "user_id": "user4",
+        "department_name": "Finance",
+        "action": "access",
+        "timestamp": "2024-09-27T15:51:13.969757"
+    },
+    {
+        "user_id": "user5",
+        "department_name": "IT",
+        "action": "access",
+        "timestamp": "2024-10-05T15:51:13.969757"
+    },
+    {
+        "user_id": "user4",
+        "department_name": "IT",
+        "action": "access",
+        "timestamp": "2024-10-01T15:51:13.969757"
+    },
+    {
+        "user_id": "user3",
+        "department_name": "IT",
+        "action": "access",
+        "timestamp": "2024-09-23T15:51:13.969757"
+    },
+    {
+        "user_id": "user1",
+        "department_name": "Finance",
+        "action": "access",
+        "timestamp": "2024-10-03T15:51:13.969757"
+    },
+    {
+        "user_id": "user2",
+        "department_name": "IT",
+        "action": "access",
+        "timestamp": "2024-09-29T15:51:13.969757"
+    },
+    {
+        "user_id": "user2",
+        "department_name": "HR",
+        "action": "access",
+        "timestamp": "2024-09-26T15:51:13.969757"
+    },
+    {
+        "user_id": "user4",
+        "department_name": "Marketing",
+        "action": "access",
+        "timestamp": "2024-10-17T15:51:13.969757"
+    },
+    {
+        "user_id": "user5",
+        "department_name": "Marketing",
+        "action": "access",
+        "timestamp": "2024-10-08T15:51:13.969757"
+    },
+    {
+        "user_id": "user1",
+        "department_name": "HR",
+        "action": "access",
+        "timestamp": "2024-09-24T15:51:13.969757"
+    },
+    {
+        "user_id": "user2",
+        "department_name": "Finance",
+        "action": "access",
+        "timestamp": "2024-10-11T15:51:13.969757"
+    },
+    {
+        "user_id": "user1",
+        "department_name": "IT",
+        "action": "access",
+        "timestamp": "2024-10-12T15:51:13.969757"
+    },
+    {
+        "user_id": "user2",
+        "department_name": "IT",
+        "action": "access",
+        "timestamp": "2024-09-25T15:51:13.969757"
+    },
+    {
+        "user_id": "user4",
+        "department_name": "IT",
+        "action": "access",
+        "timestamp": "2024-09-24T15:51:13.969757"
+    },
+    {
+        "user_id": "user2",
+        "department_name": "Marketing",
+        "action": "access",
+        "timestamp": "2024-09-27T15:51:13.969757"
+    },
+    {
+        "user_id": "user5",
+        "department_name": "Marketing",
+        "action": "access",
+        "timestamp": "2024-09-26T15:51:13.969757"
+    },
+    {
+        "user_id": "user4",
+        "department_name": "Marketing",
+        "action": "access",
+        "timestamp": "2024-09-21T15:51:13.969757"
+    },
+    {
+        "user_id": "user4",
+        "department_name": "HR",
+        "action": "access",
+        "timestamp": "2024-10-15T15:51:13.969757"
+    },
+    {
+        "user_id": "user1",
+        "department_name": "IT",
+        "action": "access",
+        "timestamp": "2024-10-13T15:51:13.969757"
+    },
+    {
+        "user_id": "user3",
+        "department_name": "HR",
+        "action": "access",
+        "timestamp": "2024-10-11T15:51:13.969757"
+    },
+    {
+        "user_id": "user4",
+        "department_name": "HR",
+        "action": "access",
+        "timestamp": "2024-10-19T15:51:13.969757"
+    },
+    {
+        "user_id": "user2",
+        "department_name": "Finance",
+        "action": "access",
+        "timestamp": "2024-09-28T15:51:13.969757"
+    },
+    {
+        "user_id": "user4",
+        "department_name": "HR",
+        "action": "access",
+        "timestamp": "2024-10-20T15:51:13.969757"
+    },
+    {
+        "user_id": "user5",
+        "department_name": "IT",
+        "action": "access",
+        "timestamp": "2024-09-23T15:51:13.969757"
+    },
+    {
+        "user_id": "user5",
+        "department_name": "IT",
+        "action": "access",
+        "timestamp": "2024-09-20T15:51:13.969757"
+    },
+    {
+        "user_id": "user5",
+        "department_name": "HR",
+        "action": "access",
+        "timestamp": "2024-09-20T15:51:13.969757"
+    },
+    {
+        "user_id": "user2",
+        "department_name": "Finance",
+        "action": "access",
+        "timestamp": "2024-10-12T15:51:13.969757"
+    },
+    {
+        "user_id": "user5",
+        "department_name": "IT",
+        "action": "access",
+        "timestamp": "2024-10-06T15:51:13.969757"
+    },
+    {
+        "user_id": "user3",
+        "department_name": "Finance",
+        "action": "access",
+        "timestamp": "2024-09-24T15:51:13.969757"
+    },
+    {
+        "user_id": "user3",
+        "department_name": "HR",
+        "action": "access",
+        "timestamp": "2024-09-24T15:51:13.969757"
+    },
+    {
+        "user_id": "user1",
+        "department_name": "Marketing",
+        "action": "access",
+        "timestamp": "2024-10-20T15:51:13.969757"
+    },
+    {
+        "user_id": "user5",
+        "department_name": "Finance",
+        "action": "access",
+        "timestamp": "2024-09-30T15:51:13.969757"
+    },
+    {
+        "user_id": "user3",
+        "department_name": "Marketing",
+        "action": "access",
+        "timestamp": "2024-10-08T15:51:13.969757"
+    },
+    {
+        "user_id": "user3",
+        "department_name": "HR",
+        "action": "access",
+        "timestamp": "2024-09-21T15:51:13.969757"
+    },
+    {
+        "user_id": "user2",
+        "department_name": "IT",
+        "action": "access",
+        "timestamp": "2024-09-25T15:51:13.969757"
+    },
+    {
+        "user_id": "user3",
+        "department_name": "Marketing",
+        "action": "access",
+        "timestamp": "2024-10-09T15:51:13.969757"
+    },
+    {
+        "user_id": "user4",
+        "department_name": "HR",
+        "action": "access",
+        "timestamp": "2024-09-21T15:51:13.969757"
+    },
+    {
+        "user_id": "user3",
+        "department_name": "HR",
+        "action": "access",
+        "timestamp": "2024-10-14T15:51:13.969757"
+    },
+    {
+        "user_id": "user5",
+        "department_name": "HR",
+        "action": "access",
+        "timestamp": "2024-10-02T15:51:13.969757"
+    },
+    {
+        "user_id": "user5",
+        "department_name": "IT",
+        "action": "access",
+        "timestamp": "2024-09-23T15:51:13.969757"
+    },
+    {
+        "user_id": "user1",
+        "department_name": "IT",
+        "action": "access",
+        "timestamp": "2024-10-12T15:51:13.969757"
+    }
+]

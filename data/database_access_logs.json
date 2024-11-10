@@ -1,0 +1,302 @@
+[
+    {
+        "user_id": "user1",
+        "database_name": "db_9",
+        "action": "read",
+        "timestamp": "2024-10-09T15:51:13.964769"
+    },
+    {
+        "user_id": "user2",
+        "database_name": "db_5",
+        "action": "write",
+        "timestamp": "2024-10-14T15:51:13.964769"
+    },
+    {
+        "user_id": "user4",
+        "database_name": "db_7",
+        "action": "read",
+        "timestamp": "2024-10-16T15:51:13.964769"
+    },
+    {
+        "user_id": "user2",
+        "database_name": "db_7",
+        "action": "delete",
+        "timestamp": "2024-09-28T15:51:13.964769"
+    },
+    {
+        "user_id": "user5",
+        "database_name": "db_1",
+        "action": "write",
+        "timestamp": "2024-10-02T15:51:13.964769"
+    },
+    {
+        "user_id": "user3",
+        "database_name": "db_1",
+        "action": "delete",
+        "timestamp": "2024-10-06T15:51:13.964769"
+    },
+    {
+        "user_id": "user1",
+        "database_name": "db_6",
+        "action": "write",
+        "timestamp": "2024-10-10T15:51:13.964769"
+    },
+    {
+        "user_id": "user2",
+        "database_name": "db_4",
+        "action": "delete",
+        "timestamp": "2024-10-19T15:51:13.964769"
+    },
+    {
+        "user_id": "user2",
+        "database_name": "db_4",
+        "action": "read",
+        "timestamp": "2024-09-24T15:51:13.964769"
+    },
+    {
+        "user_id": "user3",
+        "database_name": "db_7",
+        "action": "read",
+        "timestamp": "2024-10-02T15:51:13.964769"
+    },
+    {
+        "user_id": "user4",
+        "database_name": "db_7",
+        "action": "read",
+        "timestamp": "2024-09-26T15:51:13.964769"
+    },
+    {
+        "user_id": "user2",
+        "database_name": "db_7",
+        "action": "delete",
+        "timestamp": "2024-10-09T15:51:13.964769"
+    },
+    {
+        "user_id": "user3",
+        "database_name": "db_9",
+        "action": "delete",
+        "timestamp": "2024-10-08T15:51:13.964769"
+    },
+    {
+        "user_id": "user2",
+        "database_name": "db_4",
+        "action": "delete",
+        "timestamp": "2024-09-26T15:51:13.964769"
+    },
+    {
+        "user_id": "user5",
+        "database_name": "db_8",
+        "action": "write",
+        "timestamp": "2024-10-13T15:51:13.964769"
+    },
+    {
+        "user_id": "user4",
+        "database_name": "db_6",
+        "action": "write",
+        "timestamp": "2024-09-26T15:51:13.964769"
+    },
+    {
+        "user_id": "user1",
+        "database_name": "db_7",
+        "action": "write",
+        "timestamp": "2024-09-20T15:51:13.964769"
+    },
+    {
+        "user_id": "user5",
+        "database_name": "db_8",
+        "action": "delete",
+        "timestamp": "2024-10-16T15:51:13.964769"
+    },
+    {
+        "user_id": "user5",
+        "database_name": "db_8",
+        "action": "write",
+        "timestamp": "2024-10-11T15:51:13.964769"
+    },
+    {
+        "user_id": "user5",
+        "database_name": "db_10",
+        "action": "write",
+        "timestamp": "2024-09-24T15:51:13.964769"
+    },
+    {
+        "user_id": "user4",
+        "database_name": "db_7",
+        "action": "write",
+        "timestamp": "2024-09-20T15:51:13.964769"
+    },
+    {
+        "user_id": "user5",
+        "database_name": "db_5",
+        "action": "delete",
+        "timestamp": "2024-10-12T15:51:13.964769"
+    },
+    {
+        "user_id": "user2",
+        "database_name": "db_5",
+        "action": "delete",
+        "timestamp": "2024-09-28T15:51:13.964769"
+    },
+    {
+        "user_id": "user1",
+        "database_name": "db_10",
+        "action": "read",
+        "timestamp": "2024-10-15T15:51:13.964769"
+    },
+    {
+        "user_id": "user4",
+        "database_name": "db_7",
+        "action": "delete",
+        "timestamp": "2024-10-08T15:51:13.964769"
+    },
+    {
+        "user_id": "user1",
+        "database_name": "db_5",
+        "action": "write",
+        "timestamp": "2024-10-17T15:51:13.964769"
+    },
+    {
+        "user_id": "user2",
+        "database_name": "db_4",
+        "action": "delete",
+        "timestamp": "2024-10-11T15:51:13.964769"
+    },
+    {
+        "user_id": "user5",
+        "database_name": "db_2",
+        "action": "read",
+        "timestamp": "2024-10-15T15:51:13.964769"
+    },
+    {
+        "user_id": "user3",
+        "database_name": "db_8",
+        "action": "write",
+        "timestamp": "2024-10-07T15:51:13.964769"
+    },
+    {
+        "user_id": "user2",
+        "database_name": "db_3",
+        "action": "write",
+        "timestamp": "2024-10-13T15:51:13.964769"
+    },
+    {
+        "user_id": "user5",
+        "database_name": "db_10",
+        "action": "read",
+        "timestamp": "2024-10-14T15:51:13.964769"
+    },
+    {
+        "user_id": "user2",
+        "database_name": "db_3",
+        "action": "delete",
+        "timestamp": "2024-10-02T15:51:13.964769"
+    },
+    {
+        "user_id": "user3",
+        "database_name": "db_3",
+        "action": "write",
+        "timestamp": "2024-09-27T15:51:13.964769"
+    },
+    {
+        "user_id": "user2",
+        "database_name": "db_7",
+        "action": "delete",
+        "timestamp": "2024-09-22T15:51:13.964769"
+    },
+    {
+        "user_id": "user4",
+        "database_name": "db_1",
+        "action": "delete",
+        "timestamp": "2024-10-01T15:51:13.964769"
+    },
+    {
+        "user_id": "user2",
+        "database_name": "db_4",
+        "action": "read",
+        "timestamp": "2024-09-27T15:51:13.964769"
+    },
+    {
+        "user_id": "user1",
+        "database_name": "db_7",
+        "action": "delete",
+        "timestamp": "2024-09-20T15:51:13.964769"
+    },
+    {
+        "user_id": "user1",
+        "database_name": "db_9",
+        "action": "read",
+        "timestamp": "2024-10-13T15:51:13.964769"
+    },
+    {
+        "user_id": "user4",
+        "database_name": "db_1",
+        "action": "delete",
+        "timestamp": "2024-10-18T15:51:13.964769"
+    },
+    {
+        "user_id": "user3",
+        "database_name": "db_10",
+        "action": "read",
+        "timestamp": "2024-10-19T15:51:13.964769"
+    },
+    {
+        "user_id": "user5",
+        "database_name": "db_4",
+        "action": "write",
+        "timestamp": "2024-10-01T15:51:13.964769"
+    },
+    {
+        "user_id": "user4",
+        "database_name": "db_8",
+        "action": "delete",
+        "timestamp": "2024-10-05T15:51:13.964769"
+    },
+    {
+        "user_id": "user3",
+        "database_name": "db_6",
+        "action": "write",
+        "timestamp": "2024-10-17T15:51:13.964769"
+    },
+    {
+        "user_id": "user3",
+        "database_name": "db_10",
+        "action": "read",
+        "timestamp": "2024-10-03T15:51:13.964769"
+    },
+    {
+        "user_id": "user2",
+        "database_name": "db_6",
+        "action": "read",
+        "timestamp": "2024-10-11T15:51:13.964769"
+    },
+    {
+        "user_id": "user5",
+        "database_name": "db_5",
+        "action": "read",
+        "timestamp": "2024-10-04T15:51:13.964769"
+    },
+    {
+        "user_id": "user3",
+        "database_name": "db_6",
+        "action": "read",
+        "timestamp": "2024-10-10T15:51:13.964769"
+    },
+    {
+        "user_id": "user1",
+        "database_name": "db_9",
+        "action": "write",
+        "timestamp": "2024-09-27T15:51:13.964769"
+    },
+    {
+        "user_id": "user3",
+        "database_name": "db_10",
+        "action": "delete",
+        "timestamp": "2024-10-14T15:51:13.964769"
+    },
+    {
+        "user_id": "user4",
+        "database_name": "db_1",
+        "action": "read",
+        "timestamp": "2024-10-16T15:51:13.964769"
+    }
+]
